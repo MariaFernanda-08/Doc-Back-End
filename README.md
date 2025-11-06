@@ -39,3 +39,21 @@ const app = express()
 ```bash
 app.listen(3000)
 ```
+
+
+## 6. JSON
+- Para poder utilizar o **json** no *js* no seu sistema, para ler e enviar ao cliente
+```bash
+app.use(express.json())
+```
+
+## 7. Nodemon -D
+- Ao invés de ficar iniciando o servidor toda vez, o nodemon a cada *ctrl + s* atualiza seu servidor automaticamente
+- Abra seu terminal e digite isso:
+<img width="428" height="139" alt="nodemon" src="https://github.com/user-attachments/assets/894a203a-c7c5-4a1d-907e-4e5d6234b712" />
+
+- Após isso, vá ate o arquivo *package.json* e digite esse código no lugar do *error* na parte *script*
+<img width="302" height="29" alt="pack" src="https://github.com/user-attachments/assets/225a5251-48bb-4108-bf20-c029db843076" />
+<img width="263" height="59" alt="nodemonPackage" src="https://github.com/user-attachments/assets/6a93f780-21f3-4348-a1b2-ef043640f699" />
+
+## 8. GET & POST
