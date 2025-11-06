@@ -55,3 +55,16 @@ app.use(express.json())
 - Após isso, vá ate o arquivo *package.json* e digite esse código no lugar do *error* na parte *script*
 <img width="302" height="29" alt="pack" src="https://github.com/user-attachments/assets/225a5251-48bb-4108-bf20-c029db843076" />
 <img width="263" height="59" alt="nodemonPackage" src="https://github.com/user-attachments/assets/6a93f780-21f3-4348-a1b2-ef043640f699" />
+
+
+## 8. MySql2
+- Conexão com o Banco de Dados a partir do pacote *mysql2*, digite isso no terminal: 
+<img width="422" height="137" alt="mysql2" src="https://github.com/user-attachments/assets/d023e7fd-592b-4127-95ac-663f85ec3c1f" />
+
+- E para deixá-lo funcional, é preciso dessa linha de código:
+
+```bash
+const mysql = require('mysql/promise')
+```
+
+- **Promise**: puxa um recurso do mysql2 do banco para trabalhar de forma em que o banco não precisa estar "online" o tempo todo
