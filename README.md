@@ -68,3 +68,10 @@ const mysql = require('mysql/promise')
 ```
 
 - **Promise**: puxa um recurso do mysql2 do banco para trabalhar de forma em que o banco não precisa estar "online" o tempo todo
+
+## 9. Create Pool
+<img width="755" height="122" alt="createPool" src="https://github.com/user-attachments/assets/50e25958-17db-4105-a38b-4a6f387c2c3a" />
+- E para sincrozinarmos os dados com o banco, é preciso colocar na parte do *post* do código:
+```bash
+app.post("/login", async (req,res) =>{})
+```
