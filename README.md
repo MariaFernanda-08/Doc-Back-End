@@ -55,5 +55,3 @@ app.use(express.json())
 - Após isso, vá ate o arquivo *package.json* e digite esse código no lugar do *error* na parte *script*
 <img width="302" height="29" alt="pack" src="https://github.com/user-attachments/assets/225a5251-48bb-4108-bf20-c029db843076" />
 <img width="263" height="59" alt="nodemonPackage" src="https://github.com/user-attachments/assets/6a93f780-21f3-4348-a1b2-ef043640f699" />
-
-## 8. GET & POST
